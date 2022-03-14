@@ -1,0 +1,72 @@
+﻿body
+{
+    
+    background-image: url(https://cdn.pixabay.com/photo/2017/12/18/06/37/paper-3025558_960_720.jpg) ; /* Decided to have an image instead of just a color for the background, I used a stock image */
+    background-repeat: no-repeat;
+    background-position: center;
+ background-size: cover;
+ background-image: (0.2);
+    margin-right: 120px;
+    margin-left: 40px;
+padding-left: 10%;
+padding-right: 10%;
+}
+a{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+a:link {color: rgb(0, 86, 247); } /* made sure to alter the link colors so its not too boring */
+a:visited {color:rgb(7, 172, 7); }
+a:hover {color:orangered; }
+a:active {color:navajowhite; }
+p ::before{
+    text-indent: 60%;
+    font-size: large;
+    content: "before";
+}
+
+
+
+
+h1{
+    border-style: outset;
+    text-align: center;
+    color: rgb(226, 125, 43);
+    padding-bottom: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.center{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  border-style: outset;
+}
+
+
+p ::after{
+    text-indent: 20%;
+    font-size: large;
+    content: "after";
+}
+p{ /* just wanted to alter the text a bit to help it stand out, making it easier to read */
+    margin-top: 30px;
+    margin-bottom: 50px; 
+    margin-right: 120px;
+    margin-left: 20px; /* style choice to center the text */
+    text-align: left;
+    font-size: 28;
+    font-weight: 300;
+    color:black;
+}
+
+h2{
+    text-align: center;
+}
+ul{
+    height: 100px;
+    text-align: left;
+}
+h3{
+    text-align: center;
+}
